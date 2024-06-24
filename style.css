@@ -95,6 +95,58 @@ li {
     height: 64px;
     color: var(--bg-blue);
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/* box */
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+   display: flex;
+   align-items: flex-start;
+   column-gap: 19.96px;
+}
+.box2{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 20.96px;
+}
+.box3{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 28.96px;
+}
+h3{
+    color: #2a00a2;;
+}
+.box2{
+    border: 1px solid #D9DBE9
+}
+.box{
+    border: 1px solid #D9DBE9 ;
+}
+/* banner */
+.banner{
+    max-width: 1200px;
+    margin: auto;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    margin-top: 36px;
+}
+
 
 .boxing {
     margin: 300px 0 0;
