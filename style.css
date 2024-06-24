@@ -1,68 +1,158 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-blue: #5F2EEA;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
     list-style: none;
 }
-.container{
-    max-width: 1400px;
+
+.container {
+    max-width: 1171px;
     margin: 0 auto;
+    width: 90%;
 }
-header{
+
+header {
     padding-bottom: 200px;
 }
-.top{
+
+.top {
     display: flex;
     justify-content: space-between;
-    color: #5F2EEA;
+    color: var(--bg-blue);
     padding-top: 30px;
     border-bottom: 1px solid #BAC7D5;
 }
-.top h3{
+
+li {
+    list-style: none;
+}
+
+.top h3 {
     font-weight: 700;
     font-size: 30px;
     padding-left: 50px;
 
 }
-.top img{
+
+.top img {
     width: 30px;
     height: 20px;
 }
-.plan h1{
+
+.plan h1 {
     font-weight: 700;
     font-size: 64px;
     line-height: 103%;
     letter-spacing: 0.02em;
     width: 600px;
-    
+
 }
-.blue{
+
+.blue {
     border: none;
     border-radius: 30px;
     width: 243px;
     height: 64px;
     color: white;
-    background: #5F2EEA;
+    background: var(--bg-blue);
     margin: 100px;
     margin-left: 0px;
-
-
 }
-.fon{
-    position: relative;
+
+.fon {
+    position: absolute;
     background: url('./img/Boarding.png') center/cover no-repeat;
     z-index: 2;
-    width:1090px ;
+    width: 1090px;
     height: 634px;
     left: 350px;
-    top: -500px;
+    top: 70px;
 }
-.white{
+
+.white {
     border: none;
     border-radius: 30px;
     width: 243px;
     height: 64px;
-    color: #5F2EEA;
-    
+    color: var(--bg-blue);
 }
 
+.boxing {
+    margin: 300px 0 0;
+}
+
+.flexing {
+    display: flex;
+    justify-content: space-between;
+    margin: 36px 0 111px;
+    align-items: center;
+
+}
+
+.scrollImg {
+    display: flex;
+    gap: 32px;
+    overflow-x: scroll;
+}
+
+.scrollImg::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollimg img {
+    width: 100%;
+    height: 603px;
+    border-radius: 20px;
+}
+.boxing h4{
+    color: #BCA4FF;
+}
+.flexing h1{
+    color: #4E4B66;
+font-size: 48px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0.9999998807907104px;    
+text-align: left;
+
+}
+.airplan{
+text-align: center;
+margin: 124px auto;
+display: grid;
+gap: 36px;
+}
+.airplan h4{
+    color: #BCA4FF;
+    
+font-size: 16px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0.75px;
+}
+.airplan h1{
+    color: #4E4B66;
+font-size: 48px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0.9999998807907104px;
+}
